@@ -17,6 +17,11 @@ dependencies {
 }
 ```
 
+Add runner to defaultConfig
+```groovy
+testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+```
+
 This will produce dependecy conflicts. To resolve it add next line to your project build.gradle to allprojects closure:
 ```groovy
 allprojects {
