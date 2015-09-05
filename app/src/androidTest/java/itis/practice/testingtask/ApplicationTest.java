@@ -1,4 +1,4 @@
-package ru.guar7387.espressotesting;
+package itis.practice.testingtask;
 
 import android.support.test.rule.ActivityTestRule;
 import android.support.test.runner.AndroidJUnit4;
@@ -14,12 +14,12 @@ import static android.support.test.espresso.matcher.ViewMatchers.withText;
 
 @RunWith(AndroidJUnit4.class)
 public class ApplicationTest {
-    
+
     @Rule
     public ActivityTestRule<MainActivity> mActivityRule = new ActivityTestRule<>(MainActivity.class);
 
     @Test
-    public void buttonShouldUpdateText(){
+    public void buttonShouldUpdateText() {
         onView(withId(R.id.textView)).check(matches(withText("Hello world!")));
     }
 
