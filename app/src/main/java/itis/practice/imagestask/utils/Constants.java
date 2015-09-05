@@ -1,4 +1,4 @@
-package ru.guar7387.imagestask.utils;
+package itis.practice.imagestask.utils;
 
 import android.support.annotation.NonNull;
 

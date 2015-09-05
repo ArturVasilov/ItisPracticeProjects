@@ -1,4 +1,4 @@
-package ru.guar7387.imagestask;
+package itis.practice.imagestask;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
